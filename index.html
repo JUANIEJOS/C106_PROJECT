@@ -1,0 +1,54 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="header_div text-center">
+      <h2>Sound Controlled Animals</h2>
+      <p>Note: Play different sounds like meowing,barking</p>
+    </div>
+    <div class="div2">
+      <center>
+      <b><span id="dog">Dog Detected: </span><label id="dog_no"></label>
+      <br>
+      <br>
+      <span id="cat">Cat Detected:</span><label id="cat_no"></label>
+      <br>
+      <br>
+      <span id="cow">Cow Detected:</span><label id="cow_no"></label>
+      <br>
+      <br>
+      </b>
+      </center>
+      <center>
+<hr>
+<button class="btn btn-warning" onclick="identify_sound()">START</button>
+<h3 id="sound_result">I can Hear-</h3>
+<br>
+<img src="background.webp" id="image" width="300" height="300">
+
+  </center>
+    </div>
+    <div id="footer_div">Developed by Juanita</div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+

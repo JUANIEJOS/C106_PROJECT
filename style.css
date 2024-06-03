@@ -1,0 +1,52 @@
+body{
+    background:whitesmoke;
+    font-family: 'Roboto Slab', serif;
+}
+.header_div{
+    background:whitesmoke;
+    color:red;
+}
+.header_div p{
+    color:grey;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Roboto Slab', serif;
+}
+.div2 button{
+margin-top: 30px;
+font-weight: bolder;
+letter-spacing: 3px;
+width: 130px;
+}
+.div2{
+    background: pink;
+    padding-bottom: 35px;
+    padding-top: 15px;
+    
+
+}
+#footer_div{
+    position:fixed;
+    background-color: white;
+    bottom:0;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    text-shadow:5px 5px 5px grey;
+    font-size: 20px;
+}
+#dog {
+    font-size: 15px;
+}
+#cat{
+    font-size: 15px;
+}
+
+ #sound_detected_as{
+    font-size: 15px;
+}
+#cow{
+    font-size: 15px;
+}
+ 
